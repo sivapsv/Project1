@@ -1,0 +1,22 @@
+site_name: Mkdocs Example
+site_url: https://docs.pages.rosetta/ericssondevops.com/example
+repo_url: https://gitlab.rosetta.ericssondevops.com/docs/example
+repo_name: GitLab
+edit_uri: edit/master/docs/
+site_description: Ericsson BDGS Rosetta DevOps Platform Example
+site_favicon: favicon.ico
+
+theme:
+  name: 'material'
+  favicon: 'img/favicon.ico'
+  feature:
+    tabs: true
+
+plugins:
+  - search
+
+nav:
+    - Home: index.md
+    - Item 1: item1.md
+    - Item 2:
+        - Item 2.1: item2.1.md
